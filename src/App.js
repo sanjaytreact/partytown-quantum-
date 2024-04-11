@@ -14,6 +14,8 @@ function App() {
   script.type = "text/partytown";
   document.head.appendChild(script);
 
+  // console.log("QuantumMetricAPI", QuantumMetricAPI)
+
   return (
     <div className="App">
       <Partytown debug={true} forward={['dataLayer.push']} />
